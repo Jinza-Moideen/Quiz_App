@@ -18,7 +18,7 @@ body{
 .container h2{
 	padding: 10px;
 	border-bottom: 2px solid #777878;
-    color: #043364;
+    color: darkcyan;
 }
 .quiz{
 	padding: 15px 0;
@@ -30,6 +30,23 @@ body{
 #answers{
 	padding: 8px 0;
 	margin: 20px 0;
+}
+.btn{
+	width: 100%;
+	margin: 15px 0;
+	padding: 10px 10px;
+	border-radius: 10px;
+	font-size: 15px;
+	background: #fff;
+	cursor: pointer;
+	border: 2px solid #84848c;
+}
+.btn:hover:not(:disabled){
+	background: black;
+	color: #fff;
+}
+.btn:disabled{
+	cursor: no-drop;
 }
 #nextButton{
 	background: black;
@@ -43,4 +60,10 @@ body{
 	text-align: center;
 	cursor: pointer;
 	display: none;
+}
+.correct{
+	background: #9aeabc;
+}
+.incorrect{
+	background: #ff9393;
 }
